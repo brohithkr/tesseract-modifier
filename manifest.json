@@ -6,7 +6,7 @@
     "permissions": [
         "webRequest", "tabs", "storage"
     ],
-    "host_permissions": ["https://tesseractonline.com/],
+    "host_permissions": ["https://tesseractonline.com/"],
     "content_scripts": [
         {
             "js": [
