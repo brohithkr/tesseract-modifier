@@ -7,6 +7,15 @@
         "webRequest", "tabs", "storage","activeTab", "debugger","webNavigation"
     ],
     "host_permissions": ["https://tesseractonline.com/"],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "assets/download-button.svg"
+            ],
+            "matches": ["https://tesseractonline.com/*"] 
+
+        }
+    ],
     "content_scripts": [
         {
             "js": [

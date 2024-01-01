@@ -61,6 +61,8 @@ async function allEventHandler(debuggeeId, message, params) {
     console.log(`found: ${reqUrl}`);
 
     let resp = await chrome.tabs.sendMessage(debuggeeId.tabId, { url: reqUrl });
+
+    chrome.debugger.detach(debuggeeId);
   }
 }
 
