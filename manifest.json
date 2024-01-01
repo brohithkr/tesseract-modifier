@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Get all favorite tesseract features that our collage is too lazy to add.",
     "permissions": [
-        "webRequest", "tabs", "storage","activeTab", "debugger","webNavigation"
+        "tabs", "storage","activeTab", "debugger","webNavigation"
     ],
     "host_permissions": ["https://tesseractonline.com/"],
     "web_accessible_resources": [
@@ -16,6 +16,12 @@
 
         }
     ],
+    "icons": {
+        "16": "assets/orange16.png",
+        "32": "assets/orange32.png",
+        "48": "assets/orange48.png",
+        "128": "assets/orange128.png"
+      },
     "content_scripts": [
         {
             "js": [
