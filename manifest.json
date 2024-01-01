@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Tesseract Modifier",
     "version": "1.0",
-    "description": "Get all favorite tesseract features that our collage is too lazy to add.",
+    "description": "Get download button in tesseract website.",
     "permissions": [
         "tabs", "storage","activeTab", "debugger","webNavigation"
     ],
