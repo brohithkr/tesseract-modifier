@@ -4,16 +4,17 @@
     "version": "1.0",
     "description": "Get all favorite tesseract features that our collage is too lazy to add.",
     "permissions": [
-        "webRequest", "tabs", "storage"
+        "webRequest", "tabs", "storage","activeTab", "debugger","webNavigation"
     ],
     "host_permissions": ["https://tesseractonline.com/"],
     "content_scripts": [
         {
             "js": [
-                "scripts/content.ts"
+                "scripts/content.js"
             ],
             "matches": [
-                "https://tesseractonline.com/student/subject/*/unit/*/topic/*/content"
+                "https://tesseractonline.com/student/subject/*/unit/*/topic/*/content",
+                "https://tesseractonline.com/*"
             ]
         }
     ],
