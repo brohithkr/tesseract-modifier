@@ -1,6 +1,8 @@
 # Tesseract Modifier
 A web extension that adds a download button for pdfs in kmit tesseract website.
 
+![image](https://github.com/brohithkr/tesseract-modifier/assets/71490015/1a0c28f6-d8eb-4857-a792-dc4eda325262)
+
 Currently extension is only available for chromium based browsers.
 
 Steps to install this extension are:
